@@ -38,6 +38,7 @@ h2,
 h3 {
   color: var(--color-headings);
   margin-bottom: 1rem;
+  margin-top: .5rem;
   line-height: 1.1;
 }
 
@@ -758,8 +759,8 @@ a {
 @media screen and (min-width: 768px) {
   .block-domain__prices {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  }
-}
+    grid-template-rows: 0;
+  }}
 /* Plans Block */
 .block-plans .grid {
   gap: 8rem 4rem;
@@ -770,7 +771,7 @@ a {
   margin: 0 auto;
 }
 
-/* Features */
+/* Features Block*/
 .feature {
   gap: 4rem 2rem;
   margin: 12rem 0;
@@ -791,8 +792,7 @@ a {
 @media screen and (min-width: 768px) {
   .feature:nth-of-type(even) .feature__content {
     order: 2;
-  }
-}
+  }}
 
 /* Showcase Block */
 .block-showcase__image > img {
