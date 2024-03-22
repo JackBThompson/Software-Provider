@@ -1,0 +1,23 @@
+{
+  "name": "full-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackThomps1/Full-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackThomps1/Full-Website/issues"
+  },
+  "homepage": "https://github.com/JackThomps1/Full-Website#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
